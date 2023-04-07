@@ -1,0 +1,22 @@
+.cost2 p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #00703C;
+    margin-right: 40%;
+}
+
+
+.cost2{
+    margin-left: 4%;
+}
+
+.container-bakery{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    display: none;
+}

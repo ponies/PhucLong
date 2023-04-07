@@ -1,0 +1,98 @@
+.GioHang {
+    width: 664px;
+    height: 314px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.containerGH {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.GioHang .first {
+    height: 47px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #00703C;
+    margin-left: 6%;
+    font-weight: bold;
+    margin-right: -25%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.GioHang .w50 .btn {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 150%;
+    height: 25px;
+    width: 148px;
+}
+
+.GioHang .w50 button {
+    color: #00703C;
+    border: none;
+    background-color:white;
+    margin-top:-13%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.GioHang .items {
+    width: 90%;
+    height: 72px;
+    background: rgba(0, 112, 60, 0.1);
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-bottom: 4px;
+}
+
+.GioHang .items .w75 {
+    margin-left: 4%;
+}
+
+.GioHang .items img {
+    height: 56px;
+}
+
+.GioHang .items .w75 p {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #00703C;
+    margin-top: -2%;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.GioHang .items .btn {
+    height: 21px;
+    width: 89px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 150%;
+    margin-top: -4%;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.GioHang .items .w25 p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #00703C;
+    font-weight: bold;
+    margin-left: 15%;
+}

@@ -1,0 +1,25 @@
+.slide .w50 {
+    background: #94C3AD;
+    border-radius: 25px;
+    position: relative;
+}
+
+.slide {
+    width: 102%;
+    margin: 0 -1%;
+    flex-wrap: wrap;
+}
+
+.slide .item {
+    width: 22%;
+    background: #94C3AD;
+    border-radius: 25px;
+    margin: 1%;
+    padding: 1% 0.5%;
+}
+
+.slide .item p {
+    color: #00703C;
+    font-weight: bold;
+    text-align: center;
+}

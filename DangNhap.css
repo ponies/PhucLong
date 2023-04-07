@@ -1,0 +1,131 @@
+.DangNhap {
+    position: relative;
+    width: 664px;
+    height: 501px;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+
+.DangNhap .first .w66 button {
+    color: #00703C;
+    border: none;
+    background-color:white;
+    margin-top:-38%;
+    margin-left: -4%;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.DangNhap img {
+    width: 100% !important;
+    height: unset !important;
+    margin: 0 !important;
+    margin-left: 40px !important;
+}
+
+.btnExit {
+    cursor: pointer;
+}
+
+.DangNhap h3 {
+    width: 80%;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    color: #00703C;
+    margin-left: 12%;
+}
+
+.DangNhap .inform span {
+    color: #00703C;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    padding-bottom: 8%;
+    position: absolute;
+    width: 194px;
+    height: 100px;
+    left: 34px;
+    top: 190px;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.DangNhap input {
+    margin-top: 3%;
+}
+
+.containerDN {
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 3;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.DangNhap .inform div input {
+    position: absolute;
+    width: 563px;
+    height: 48px;
+    left: 40px;
+    top: 266px;
+    background: rgba(0, 112, 60, 0.1);
+    border-radius: 25px;
+    border: none;
+}
+
+.DangNhap .inform>input {
+    position: absolute;
+    width: 563px;
+    height: 48px;
+    left: 40px;
+    top: 328px;
+    background: rgba(0, 112, 60, 0.1);
+    border-radius: 25px;
+    border: none;
+}
+
+.DangNhap input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #00703C;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.submit .btn {
+    margin-top: 2%;
+    margin-left: -4%;
+}
+
+.submit .btn-white {
+    position: absolute;
+    width: 180px;
+    height: 36px;
+    left: 196px;
+    top: 414px;
+}
+
+.submit .btn-white span {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #00703C;
+}
+
+.submit .btn-white span:hover {
+    color: #ffcc15;
+}
+
+.submit .btn-green {
+    position: absolute;
+    width: 180px;
+    height: 38px;
+    left: 397px;
+    top: 413px;
+    font-size: 20px;
+}
