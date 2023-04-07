@@ -2,6 +2,12 @@
     width: 20%;
 }
 
+.sub-bar a{
+    text-decoration: none;
+}
+
+
+
 .slide .w50 {
     background: white;
     border-radius: 25px;

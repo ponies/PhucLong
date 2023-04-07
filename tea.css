@@ -4,8 +4,8 @@
 
 
 
-.sub-bar .btn {
-
+.sub-bar a {
+    text-decoration: none;
 }
 
 
@@ -67,7 +67,7 @@
     font-weight: 700;
 }
 
-.banner{
+.banner {
     border: 1px solid #FFFFFF;
     border-radius: 25px;
     box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.25);
@@ -77,4 +77,8 @@
     width: 20%;
     margin-bottom: 2%;
     margin-top: 4%;
+}
+
+.sub-bar .btn {
+    width: 23%;
 }

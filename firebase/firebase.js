@@ -29,7 +29,7 @@ var AddUser = function (user) {
 //đọc dữ liệu từ database
 var CheckUser = function (user, callback) {
   get(child(ref(database), 'users/' + user.phone)).then((snapshot) => {
-    if (snapshot.exists() && snapshot.val().pass && user.pass == snapshot.val().pass) {
+    if (snapshot.exists() && snapshot.val().password && user.pass == snapshot.val().password) {
       callback(snapshot.val());
     } else {
       callback(undefined);
